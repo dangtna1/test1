@@ -1,0 +1,38 @@
+#image {
+    border: solid 5px #ff0000;
+    border-radius: 10px;
+    width: 40%;
+}
+h2 {
+    color: #c62828;
+}
+table, th, td {
+    border: solid #aaa 0.5px;
+}
+table {
+    border-collapse: collapse;
+    width: 200px;
+    text-align: center;
+}
+p::first-letter {
+    font-size: 80px;
+    font-weight: bold;
+}
+.strong_u_bigger {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 25px;
+}
+.em_u_bigger {
+    text-decoration: underline;
+    font-style: Italic;
+    font-size: 25px;
+}
+body {
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;    
+    font-weight: 500;
+}
+h1 {
+    color: #c62828;
+    text-shadow: 4px 4.5px #00f;
+}
